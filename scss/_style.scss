@@ -1,0 +1,26 @@
+.s-1 {
+    background-color: lightpink;
+    .container {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        .mybox {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 30px;
+        }
+        .left-box {
+            background-color: $mycolor1;
+        }
+        .right-box {
+            background-color: $mycolor2;
+        }
+        .btn1 {
+            @include mybutton;
+        }
+        .btn2 {
+            @include mybutton;
+            background-color: green;
+        }
+    }
+}

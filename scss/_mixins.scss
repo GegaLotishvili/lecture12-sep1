@@ -1,0 +1,9 @@
+@mixin mybutton {
+    width: 100px;
+    height: 30px;
+    background-color: $mycolor1;
+    border: none;
+    border-radius: 5px;
+    color: $mycolor2;
+    font-size: 18px;
+}
